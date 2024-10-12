@@ -44,4 +44,18 @@ _This README was generated with ❤️ by [readme-md-generator](https://github.c
 - toBe() - To test a value with exact equality
 - toEqual() - To test a value with exact equality with object and Array
 
+### Jest truthiness
 
+- toBeNull - to check the value is null
+- toBeDefined - to check the value is defined
+- toBeUndefined - To check the value is undefined
+- toBeTruthy- Matches if any true value comes
+- toBeFalsy - Matches if any false values comes
+
+### Numbers
+
+- toBeGreaterThan(n) - expected value should be greater than n
+- toBeGreaterThanOrEqual(n) - expected value either greater than or equal to n
+- toBeLessThan(n) - expected value should be lesser than n
+- toBeLessThanOrEqual(n) - expected value should be lesser or equal than n
+- toBeCloseTo(n) - if expected value is floating there toBe won't work so use the close 
